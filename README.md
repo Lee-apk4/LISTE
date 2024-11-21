@@ -2,15 +2,12 @@
 # Go
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>Mon Site Web</title>
-</head>
-<body>
-    <h1>Bienvenue sur mon site !</h1>
-    <p>Voici mon premier paragraphe.</p>
-    <a href="https://www.google.com" target="_blank">Visitez Google</a>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Première Page HTML</title>
+  </head>
+  <body>
     <h1>Bienvenue sur ma page Web !</h1>
 	<h2>Titre principal</h2>
 	<h3>Sous-titre</h3>
@@ -49,6 +46,4 @@
 	  <input type="submit" value="Envoyer">
 	</form>
   </body>
-</html>
-</body>
 </html>
