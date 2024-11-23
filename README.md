@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-
 <p>This is a paragraph.</p>
 <img src="photo.png" width="100%" alt="Good"></image>
 <audio controls loop>
