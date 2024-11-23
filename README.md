@@ -1,49 +1,46 @@
 # Me
-# Too
 <!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma Première Page HTML</title>
-  </head>
-  <body>
-    <h1>Bienvenue sur ma page Web !</h1>
-	<h2>Titre principal</h2>
-	<h3>Sous-titre</h3>
-	<h4>Sous-sous-titre</h4>
-    <p>Ceci est un paragraphe de texte.</p>
-	<p>Ceci est un paragraphe de texte.</p>
-	<a href="https://www.example.com">Cliquez ici pour visiter</a>
-	<img src="IMG_20241118_100050.jpg" alt="Description de l'image" width="300" height="200">
-	<ul>
-	  <li>Élément 1</li>
-	  <li>Élément 2</li>
-	  <li>Élément 3</li>
-	</ul>
-	<ol>
-	  <li>Élément 1</li>
-	  <li>Élément 2</li>
-	  <li>Élément 3</li>
-	</ol>
-	<table border="2">
-	  <tr>
-        <th>Nom</th>
-        <th>Âge</th>
-	  </tr>
-	  <tr>
-        <td>John</td>
-        <td>30</td>
-	  </tr>
-	  <tr>
-        <td>Jane</td>
-        <td>25</td>
-	  </tr>
-	</table>
-	<form action="/soumettre" method="POST">
-	  <label for="nom">Nom :</label>
-	  <input type="text" id="nom" name="nom">
-	  <input type="submit" value="Envoyer">
-	</form>
+<html>
+<body>
+
+<p>This is a paragraph.</p>
+<img src="photo.png" width="100%" alt="Good"></image>
+<audio controls loop>
+  <source src="RockThatParty.ogg">
+</audio>
+<p>This is a formulaire</p>
+<form>
+  <input type="text" placeholder="nom">
+  <input type="password" placeholder="password">
+  <input type="search" placeholder="search">
+  <input type="email"placeholder="email"><input type="date"placeholder="date">
+  <input type="url"placeholder="url">
+  <input type="number"placeholder="number">
+  <input type="tel"placeholder="tel"><br>
+<p1>Cœlor : <input type="color"></p1><br>
+<p2>Fichier: <input type="file"></p2><br>
+<p2>Fait_le:<input type="datetime-local">:
+<select multiple>
+  <option value="Android">Android</option>
+  <option value="Iphone">Iphone</option>
+  <option value="Windows">Windows</option>
+  <option value="Mac">Mac</option>
+    </select>
+      </p2>
+  <p>check <input type="checkbox"
+  >radio <input type="radio"></p>
+  <h5><input type="submit"value="Start to login"></h5>
+  <h5><input type="reset"></h5>
+        </form>
+     <style>
+  p {text-align: center;}
+  h5 {text-align: center;}
+  body { background-color: #81d4fa;}
+  form { background-color: white;}
+</style>
+<form>
+  <textarea rows="4" cols="40" placeholder="commentaire"></textarea>
+    <input type="submit"value="Envoyer">
+    </form>
   </body>
 </html>
