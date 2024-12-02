@@ -1,0 +1,296 @@
+/* El�ments principaux de la page */
+table
+{
+display:flex;
+height: 100px;
+width: 590px;
+margin: auto;
+color: red;
+background:url('adaptive_background.png');
+}
+
+td h1{
+  width: 500px;
+  text-align: left;
+}
+
+body
+{
+background: #cfd8dc;
+font-family: 'Trebuchet MS', Arial, sans-serif;
+color: black;
+}
+
+#bloc_page
+{
+width: 590px;
+margin: auto;
+background:white ;
+}
+
+section h1, footer h1, nav a
+{
+font-family: Dayrom, serif;
+font-weight: normal;
+text-transform: uppercase;
+}
+/* Header */
+header
+{
+height: 50px;
+background: url('adaptive_background.png');
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+color: yellow;
+}
+
+#titre_principal
+{
+display: flex;
+flex-direction: column;
+}
+
+header h1
+{
+font-family: 'BallparkWeiner', serif;
+font-size: 2.5em;
+font-weight: normal;
+margin: 0 0 0 10px;
+text-align: left;
+width: 500px;
+}
+
+}
+header h2
+{
+font-family: Dayrom, serif;
+font-size: 1.1em;
+margin-top: 0px;
+font-weight: normal;
+}
+
+/* Navigation */
+nav ul
+{
+list-style-type: none;
+display: flex;
+}
+nav li
+{
+margin-right: 15px;
+}
+nav a
+{
+font-size: 1.3em;
+padding-bottom: 3px;
+text-decoration: none;
+color: black;
+border-bottom: 2px solid green;
+margin: auto;
+text-align: left;
+position: relative;
+right: 290px;
+bottom: 2px;
+}
+
+
+aside h1
+{
+text-align: center;
+color: White;
+border-bottom: 3px solid black;
+}
+
+/* Banni�re */
+#banniere_image
+{
+margin-top: 20px;
+height: 220px;
+border-radius: 5px;
+position: relative;
+box-shadow: 0px 4px 4px #1c1a19;
+margin-bottom: 25px;
+background: black;
+background-attachment: scroll;
+}
+#banniere_description
+{
+position: absolute;
+bottom: 0;
+border-radius: 0px 0px 5px 5px;
+width: 99.5%;
+height: 33px;
+padding-top: 15px;
+padding-left: 4px;
+background-color: rgba(24,24,24,0.8);
+color: white;
+font-size: 0.8em;
+}
+.bouton_rouge
+{
+height: 30px;
+width: 200px;
+position: absolute;
+right: 5px;
+bottom: 5px;
+background: red;
+border: 1px solid #760001;
+border-radius: 10px;
+font-size: 1.2em;
+text-align: center;
+padding: 3px 8px 0px 8px;
+color: white;
+text-decoration: none;
+}
+.bouton_rouge img
+{
+  
+border: 5;
+}
+/* Corps */
+section
+{
+display: flex;
+margin-bottom: 20px;
+}
+article, aside
+{
+text-align: justify;
+height: 500px;
+
+}
+article
+{
+height: 1025px;
+margin-right: 20px;
+flex: 3;
+background: none;
+}
+
+article p{
+  width: 350px;
+  height: 900px;
+  text-align: justify;
+  font-size: 0.8em;
+  border: 1px solid blue;
+  overflow: scroll;
+  font-weight: normal;/* bold */
+  font-style: normal; /* italic,oblique */
+  text-decoration: none;
+  /* • underline : souligné.
+• line-through : barré.
+• overline : ligne au-dessus.
+• blink : clignotant. Ne fonctionne pas sur tous les navigateurs (Internet Explorer et Google Chrome,
+notamment).
+• none : normal (par défaut). */
+  
+}
+
+.ico_categorie
+{
+vertical-align: middle;
+margin-right: 8px;
+}
+
+aside
+{
+flex: 1.2;
+background-color: #706b64;
+box-shadow: 1px 5px 10px green;
+border-radius: 5px;
+padding: 10px;
+color: white;
+font-size: 0.9em;
+height: 500px;
+width: 200px;
+position: relative;
+right: 5px;
+bottom: 5px;
+top: 200px;
+text-align: center;
+}
+aside img
+{
+margin-right: 5px;
+}
+
+#fleche_bulle
+{
+position: absolute;
+top: 100px;
+left: -12px;
+}
+
+
+/* section2 */
+section2
+{
+width: 900px
+height: 200px;
+display: flex;
+background: url('110.jpg')repeat top ;
+padding-top: 25px;
+}
+
+section2 p, section2 ul
+{
+font-size: 0.8em;
+}
+section2 h1
+{
+font-size: 1.1em;
+color: blue;
+border-bottom: 5px solid blue;
+position: relative;
+text-decoration: none;
+margin: auto;
+text-align: center;
+width: 150px;
+left: 2px;
+
+}
+#tweet
+{
+width: 30%;
+color: black;
+}
+#mes_photos
+{
+width: 50%;
+}
+#mes_projets
+{
+width: 30%;
+color: green;
+}
+#mes_photos img
+{
+border: 1px solid #181818;
+margin-right: 2px;
+}
+#listes_projets
+{
+display: flex;
+justify-content: space-between;
+margin-top: 0px;
+}
+#mes_projets ul
+{
+list-style-image: url('images/ico_liensexterne.png');
+padding-left: 1px;
+}
+#mes_projets a
+{
+text-decoration: none;
+color: #760001;
+}
+
+
+footer
+{
+color: white;
+background: black;
+border: 3px solid black;
+text-align: center;
+}
